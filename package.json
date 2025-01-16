@@ -1,0 +1,30 @@
+{
+  "name": "learn_track",
+  "description": "A simple website to learn anything by watching videos and answering questions",
+  "author": "Alex-Silva0",
+  "version": "0.4.0",
+  "dependencies": {
+    "js-cookie": "^3.0.5",
+    "sweetalert2": "^11.15.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/youtube": "^0.1.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "parcel": "^2.10.2",
+    "typescript-eslint": "^8.20.0"
+  },
+  "source": [
+    "src/index.html",
+    "src/session.html"
+  ],
+  "scripts": {
+    "init": "rm -rf dist/* && cp -r data/ dist",
+    "start": "npm run init && parcel",
+    "build": "npm run init && parcel build"
+  },
+  "browserslist": "Safari 12",
+  "private": true
+}

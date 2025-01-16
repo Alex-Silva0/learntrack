@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "PolySans Neutral";
+    src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot");
+    src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.svg#PolySans Neutral")format("svg");
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+    user-select: none;
+    background-color: #69D2E7;
+    font-family: "PolySans Neutral", 'Segoe UI', 'Tahoma', sans-serif;
+    font-size: 20px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 0 #000;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.card {
+    text-align: center;
+    cursor: pointer;
+    background-color: hsl(187, 100%, 77%);
+    padding: 10px;
+}
+
+.card img {
+    width: 120px;
+}
+
+.big-card {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(173, 250, 207);
+}
+
+.card-wrapper {
+    display: flex;
+    padding: 10px 0;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: block;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#welcome {
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: rgb(60, 211, 158);
+    padding: 10px;
+    display: none;
+}
+
+.button {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: deepskyblue;
+}
+
+.dropdown {
+    padding: 10px;
+    display: none;
+}
+
+.check-wrapper {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.check-wrapper img {
+    width: inherit;
+    height: inherit;
+}
+
+.linkable {
+    position: relative;
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "PolySans Neutral";
+    src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot");
+    src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.svg#PolySans Neutral")format("svg");
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+    user-select: none;
+    background-color: #69D2E7;
+    font-family: "PolySans Neutral", 'Segoe UI', 'Tahoma', sans-serif;
+}
+
+.shadow {
+    box-shadow: 2px 2px 0 #000;
+    border: 2px solid black;
+}
+
+#questions {
+    padding: 10px;
+    background-color: rgb(173, 250, 207);
+    font-size: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}
+
+#qw {
+    width: 100%;
+}
+
+.alternative {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 #000;
+    border: 1px solid black;
+    background-color: deepskyblue;
+}
+
+#description {
+    padding: 5px;
+}
+
+#submit-w {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#submit-b {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline;
+    cursor: pointer;
+    background-color: deepskyblue;
+}
+
+.hoverable:hover {
+    background-color: hsl(147, 88%, 90%) !important;
+}
+
+.marked {
+    background-color: hsl(33, 100%, 91%);
+}
+
+#status {
+    text-align: center;
+}
+
+@media (min-width: 200px) and (orientation:landscape) {
+    #questions {
+        width: 25%;
+    }
+    #qw {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+#player {
+    max-width: 100%;
+    display: none;
+}
+
+#results {
+    display: none;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+#alternatives {
+    margin: 10px 0;
+}
+
+.button {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: deepskyblue;
+}
+
+#only-questions-button {
+    display: none;
+}
+
+#logging {
+    white-space: pre-line;
+}

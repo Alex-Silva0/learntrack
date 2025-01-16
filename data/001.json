@@ -1,0 +1,78 @@
+{
+  "videoid": "cLJQZHiJgHA",
+  "questions": [
+      {
+        "options": [
+          {
+            "prefix": "a) ",
+            "text": "O conjunto de valores que a função pode assumir."
+          },
+          {
+            "prefix": "b) ",
+            "text": "O conjunto de todos os valores de entrada possíveis da função."
+          },
+          {
+            "prefix": "c) ",
+            "text": "O conjunto de pares ordenados associados à função."
+          },
+          {
+            "prefix": "d) ",
+            "text": "O conjunto de valores de saída da função."
+          }
+        ],
+        "title": "Questão 1",
+        "description": "O que é o domínio de uma função?",
+        "correctAnswer": 1,
+        "pauseAt": 64,
+        "action": "video"
+      },
+      {
+        "options": [
+          {
+            "prefix": "a) ",
+            "text": "O conjunto de todos os valores de saída possíveis da função."
+          },
+          {
+            "prefix": "b) ",
+            "text": "O conjunto de todos os valores de entrada possíveis da função."
+          },
+          {
+            "prefix": "c) ",
+            "text": "O conjunto de valores que a função não pode assumir."
+          },
+          {
+            "prefix": "d) ",
+            "text": "O conjunto de pares ordenados definidos pela função."
+          }
+        ],
+        "title": "Questão 2",
+        "description": "O que é a imagem de uma função?",
+        "correctAnswer": 0,
+        "pauseAt": 129,
+        "action": "video"
+      },
+      {
+        "options": [
+          {
+            "prefix": "a) ",
+            "text": "Todos os números pertencentes aos conjunto dos números reais que sejam menores que zero."
+          },
+          {
+            "prefix": "b) ",
+            "text": "Todos os números pertencentes aos conjunto dos números reais que sejam maiores que zero."
+          },
+          {
+            "prefix": "c) ",
+            "text": "Todos os números pertencentes aos conjunto dos números reais que sejam maiores ou iguais a zero."
+          }
+        ],
+        "title": "Questão 3",
+        "description": "Qual é a imagem da função f(x) = x²",
+        "correctAnswer": 2,
+        "pauseAt": -1,
+        "action": "end"
+      }
+  ]
+  }
+  
+  
