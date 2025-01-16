@@ -21,7 +21,7 @@
     "src/session.html"
   ],
   "scripts": {
-    "init": "rm -rf dist/* && cp -r data/ dist",
+    "init": "rm -rf dist/ && mkdir dist && cp -r data/ dist",
     "start": "npm run init && parcel",
     "build": "npm run init && parcel build"
   },
