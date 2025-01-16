@@ -18,7 +18,7 @@ Também tem como objetivo implementar o estilo [Neubrutalism](https://bejamas.co
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Alex-Silva0/learntrack.git
-   cd quadradado
+   cd learntrack
    ```
 
 2. Instale as dependências:
